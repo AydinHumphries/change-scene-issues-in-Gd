@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scenes/button.gd" type="Script" id=1]
+
+[node name="machine" type="Node"]
+
+[node name="button" type="Button" parent="."]
+margin_left = 385.303
+margin_top = 242.598
+margin_right = 594.303
+margin_bottom = 293.598
+text = "return"
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="button" to="button" method="_on_button_pressed"]
