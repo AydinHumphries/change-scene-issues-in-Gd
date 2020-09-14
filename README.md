@@ -1,6 +1,8 @@
 # Change Scene Issues in Godot 3d Networking Multiplayer Template
 
-hello,
+the original Facebook query:
+
+"hello,
 
 I'm having difficulties changing scenes in my Godot project when a player enters a collision area - I want the scene to change there to a user interface and change back to main screen when the player selects "return". the video below shows all the scenes, nodes and scripts but the most relevant parts are at 3m45s-5m30s and 6m30s until the end, pretty much (these parts show the code needed to interpret the patch). everything else before that shows remaining networking scripts that I used from the Godot template for networking a multiplayer game.
 
@@ -11,4 +13,4 @@ if it's a logical issue, I can imagine the game engine would just ignore both of
 
 full code: the project can be downloaded from AydinHumphries/change-scene-issues-in-Gd (github.com)
 
-video: https://youtu.be/x7cP5ip_xxA
+video: https://youtu.be/x7cP5ip_xxA"
